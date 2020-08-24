@@ -1,0 +1,16 @@
+Why we need constructr in java?
+
+Before constructor, we initialize the variables and object by creating objects. e.g.
+ob.emp_id=101;
+ob.emp_name="Manoj";
+.
+.
+.
+
+If there are 1000 employes in the company we need to created 1000 objects and 2000 lines to intialize the values of object.{which is not good programming}
+but after using constructor, we can intialize the values of instance variable by using parameterizes constructor.
+
+Employee ob = new Employee(102,"Parisha");
+
+
+ 
